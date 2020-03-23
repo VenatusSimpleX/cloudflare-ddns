@@ -1,0 +1,28 @@
+{
+  "name": "cloudflare-ddns",
+  "version": "1.0.0",
+  "description": "Update Cloudflare's A record with your current IP",
+  "main": "src/main.js",
+  "scripts": {
+    "ddns": "node ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenatusSimpleX/cloudflare-ddns.git"
+  },
+  "keywords": [
+    "Cloudflare",
+    "DDNS"
+  ],
+  "author": "VenatusSimpleX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenatusSimpleX/cloudflare-ddns/issues"
+  },
+  "homepage": "https://github.com/VenatusSimpleX/cloudflare-ddns#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}
